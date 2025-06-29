@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ethan Huang – Resume</title>
+  <style>
+    :root{
+      --primary:#2C3E50;
+      --accent:#3498DB;
+      --text:#2C3E50;
+      --subtext:#555;
+      --bg:#F4F6F7;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:'Helvetica Neue',Arial, sans-serif;}
+    body{background:var(--bg);color:var(--text);line-height:1.6;}
+    .container{max-width:900px;margin:40px auto;padding:20px;background:#fff;border-radius:12px;box-shadow:0 4px 14px rgba(0,0,0,0.1);}   
+    .header{text-align:center;margin-bottom:30px;}
+    .header h1{font-size:2.5rem;color:var(--primary);}   
+    .header p{font-size:1.1rem;color:var(--subtext);}   
+    .contact{display:flex;justify-content:center;gap:20px;margin-top:10px;font-size:0.95rem;flex-wrap:wrap;}
+    .section{margin-bottom:30px;}
+    .section h2{font-size:1.4rem;color:var(--accent);margin-bottom:10px;border-bottom:2px solid var(--accent);display:inline-block;padding-bottom:4px;}
+    .section ul{list-style:none;}
+    .section li{margin-bottom:8px;}
+    .role{font-weight:600;}
+    .meta{font-size:0.85rem;color:var(--subtext);display:block;margin-bottom:4px;}
+    .tags{margin-top:6px;font-size:0.85rem;}
+    .tag{display:inline-block;background:var(--accent);color:#fff;padding:2px 6px;border-radius:4px;margin-right:6px;margin-top:4px;}
+    @media(max-width:600px){
+      .contact{flex-direction:column;align-items:center;gap:6px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="header">
+      <h1>Ethan Huang</h1>
+      <p>Software Developer · Blockchain Enthusiast · Master's Student</p>
+      <div class="contact">
+        <span>Auckland, New Zealand</span>
+        <span>eason.huang@example.com</span>
+        <span>+64 21 000 1234</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Profile</h2>
+      <p>Experienced full-stack developer with a focus on modern front-end technologies and blockchain integrations. Founder of a startup providing JavaScript SDKs for Cosmos-based chains. Adept at building user-friendly web applications, leading small teams, and communicating across cultures. Currently pursuing a master’s degree in Software Development and refining professional English communication skills.</p>
+    </section>
+
+    <section class="section">
+      <h2>Core Skills</h2>
+      <div class="tags">
+        <span class="tag">React</span><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">JavaScript</span><span class="tag">Python</span><span class="tag">Cosmos SDK</span><span class="tag">Ethereum / Ethers.js</span><span class="tag">Git</span><span class="tag">CI/CD</span><span class="tag">Unit Testing</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <span class="role">Founder & Lead Front-End Engineer — <em>Blockchain SDK Startup</em></span>
+          <span class="meta">Sep 2023 – Present | Remote / New Zealand</span>
+          <ul>
+            <li>Designed and maintained TypeScript SDKs that simplify dApp development on Cosmos chains.</li>
+            <li>Built demo apps in React, showcasing wallet connection, transaction signing, and data queries.</li>
+            <li>Led a small distributed team (CN, KR, US, IN) and implemented Agile workflows through GitHub.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="role">Front-End Developer — <em>XYZ Software Co.</em></span>
+          <span class="meta">Jul 2019 – Aug 2023 | Xiamen, China</span>
+          <ul>
+            <li>Migrated legacy codebase to React and improved Lighthouse performance score from 62 → 93.</li>
+            <li>Collaborated with backend team to integrate REST & GraphQL APIs, reducing page load time by 35 %.</li>
+            <li>Instituted unit-testing pipeline with Jest, raising UI regression coverage to 85 %.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Selected Projects</h2>
+      <ul>
+        <li>
+          <span class="role">English Learning Website</span>
+          <span class="meta">2024 – Present</span>
+          <ul>
+            <li>Created a content-driven site that helps learners memorize sentences; &gt;30 daily active users.</li>
+            <li>Implemented feedback system and improved input validation for better UX.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="role">Car Rental System (Academic)</span>
+          <span class="meta">May 2025</span>
+          <ul>
+            <li>Designed a Python OOP solution with clear README and UML diagrams; achieved 90 % unit test coverage.</li>
+            <li>Wrote academic report with plagiarism below 10 % using Turnitin.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="role">Quantum Bell-State Simulation</span>
+          <span class="meta">2025</span>
+          <ul>
+            <li>Explored Cirq & Quokka cloud simulators to demonstrate entanglement; automated result parsing.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <span class="role">M.S. in Software Development — <em>ABC University</em></span>
+          <span class="meta">Mar 2025 – Present | Auckland, NZ</span>
+        </li>
+        <li>
+          <span class="role">B.S. in Computer Science — <em>DEF University</em></span>
+          <span class="meta">2015 – 2019 | China</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Languages & Certifications</h2>
+      <ul>
+        <li>Mandarin (native), English (IELTS 6.5).</li>
+        <li>AWS Certified Cloud Practitioner (2022).</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Interests</h2>
+      <p>Quantum computing • Classical music (Mozart) • Video games (The Legend of Zelda) • Hiking & Photography</p>
+    </section>
+  </div>
+</body>
+</html>
